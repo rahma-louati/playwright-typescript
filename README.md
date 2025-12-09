@@ -1,7 +1,6 @@
 # 🎭 Playwright
 
-[![npm version](https://img.shields.io/npm/v/playwright.svg)](https://www.npmjs.com/package/playwright) <!-- GEN:chromium-version-badge -->[![Chromium version](https://img.shields.io/badge/chromium-143.0.7499.25-blue.svg?logo=google-chrome)](https://www.chromium.org/Home)<!-- GEN:stop --> <!-- GEN:firefox-version-badge -->[![Firefox version](https://img.shields.io/badge/firefox-145.0.2-blue.svg?logo=firefoxbrowser)](https://www.mozilla.org/en-US/firefox/new/)<!-- GEN:stop --> <!-- GEN:webkit-version-badge -->[![WebKit version](https://img.shields.io/badge/webkit-26.0-blue.svg?logo=safari)](https://webkit.org/)
----
+[![npm version](https://img.shields.io/npm/v/playwright.svg)](https://www.npmjs.com/package/playwright) <!-- GEN:chromium-version-badge -->[![Chromium version](https://img.shields.io/badge/chromium-143.0.7499.25-blue.svg?logo=google-chrome)](https://www.chromium.org/Home)<!-- GEN:stop --> <!-- GEN:firefox-version-badge -->[![Firefox version](https://img.shields.io/badge/firefox-145.0.2-blue.svg?logo=firefoxbrowser)](https://www.mozilla.org/en-US/firefox/new/)
 
 🎭 Présentation
 
@@ -18,25 +17,30 @@ Il gère :
 
 # 🧰 Structure du projet
 
-```text
-hooks/
-  Hooks.ts
+```
+```
+project-root/
+│
+├── hooks/
+│   └── Hooks.ts
+│
+├── pages/
+│   ├── HomePage.ts
+│   ├── LoginPage.ts
+│   └── ProductReviewPage.ts
+│
+├── tests/
+│   ├── login.spec.ts
+│   └── productReview.spec.ts
+│
+├── actions/
+│   ├── PageActions.ts
+│   └── PageAssertions.ts
+│
+├── playwright.config.ts
+└── README.md
+```
 
-pages/
-  HomePage.ts
-  LoginPage.ts
-  ProductReviewPage.ts
-
-tests/
-  login.spec.ts
-  productReview.spec.ts
-
-actions/
-  PageActions.ts
-  PageAssertions.ts
-
-playwright.config.ts
-README.md
 ```
 
 ---
