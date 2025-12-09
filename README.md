@@ -18,27 +18,25 @@ Il gère :
 
 # 🧰 Structure du projet
 
-project-root/
-│
-├── hooks/
-│   └── Hooks.ts
-│
-├── pages/
-│   ├── HomePage.ts
-│   ├── LoginPage.ts
-│   └── ProductReviewPage.ts
-│
-├── tests/
-│   ├── login.spec.ts
-│   └── productReview.spec.ts
-│
-├── actions/
-│   ├── PageActions.ts
-│   └── PageAssertions.ts
-│
-├── playwright.config.ts
-└── README.md
+```text
+hooks/
+  Hooks.ts
 
+pages/
+  HomePage.ts
+  LoginPage.ts
+  ProductReviewPage.ts
+
+tests/
+  login.spec.ts
+  productReview.spec.ts
+
+actions/
+  PageActions.ts
+  PageAssertions.ts
+
+playwright.config.ts
+README.md
 
 ---
 
