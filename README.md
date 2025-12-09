@@ -38,6 +38,7 @@ actions/
 playwright.config.ts
 README.md
 
+
 ---
 
 ## 📥 Commandes utiles
