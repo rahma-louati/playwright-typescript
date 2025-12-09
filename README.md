@@ -18,7 +18,6 @@ Il gère :
 # 🧰 Structure du projet
 
 ```
-```
 project-root/
 │
 ├── hooks/
@@ -41,7 +40,7 @@ project-root/
 └── README.md
 ```
 
-```
+
 
 ---
 
